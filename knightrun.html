@@ -3,19 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Knight Run</title>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="knightrun.css" />
   </head>
+  <footer>Created by IsaacWork-404</footer>
   <body>
-    <h1>K n i g h t R u n</h1>
+    <h1>✨K n i g h t R u n✨</h1>
+
     <main>
       <div class="fighters">
+
         <div class="player active">
-          <section id="good">🧙Player</section>
+          <div class="player-name">🧙Player</div>
+
           <div class="health-bar">
             <div class="health-fill player-health"></div>
           </div>
@@ -25,15 +31,23 @@
         <div class="fire">🔥</div>
 
         <div class="monster">
-          <section id="evil">👹Monster</section>
+          <div class="monster-name">👹Monster</div>
+
           <div class="health-bar">
             <div class="health-fill monster-health"></div>
           </div>
         </div>
+
       </div>
-      <h2 class="win">Monster Slayed 🏆</h2>
-      <button class="attk">⚔️Attack</button>
+
+      <h2 class="winner"></h2>
+
+      <div class="turn">TURN</div>
+
+      <button class="attack">⚔️Attack</button>
+      <button class="restart">Restart</button>
     </main>
+
     <script src="knightrun.js"></script>
   </body>
 </html>
